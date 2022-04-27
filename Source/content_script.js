@@ -39,10 +39,16 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bElon Musk\b/g, "Mr Burns");
-	v = v.replace(/\bElon Musk\b/g, "Mr Burns");
-	v = v.replace(/\bElon Musk\b/g, "Mr Burns");
-	v = v.replace(/\bElon Musk\b/g, "Mr Burns");
+	v = v.replace(/\b(E|e)lon (M|m)usk\b/g, "Mr Burns");
+	v = v.replace(/\b(E|e)lon (M|m)usk\b/g, "Mr Burns");
+	v = v.replace(/\b(E|e)lon (M|m)usk\b/g, "Mr Burns");
+	v = v.replace(/\b(E|e)lon (M|m)usk\b/g, "Mr Burns");
+	v = v.replace(/\b(E|e)lon Reeve (M|m)usk\b/g, "Charles Montgomery Burns");
+	v = v.replace(/\belonmusk\b/g, "Mr Burns");
+	v = v.replace(/\bElon Reeve Musk\b/g, "Mr Burns");
+	v = v.replace(/\bElon_Musk\b/g, "Mr Burns");
+	v = v.replace(/\bElon\b/g, "Monty");
+	v = v.replace(/\bMusk\b/g, "Burns");
 	
 	textNode.nodeValue = v;
 }
