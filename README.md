@@ -7,7 +7,7 @@ all thanks to panicsteve and the cloud-to-butt community [ including the milleni
 
 Chrome extension that replaces occurrences of 'elon musk' with 'mr burns'
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+[Direct download of crx file](https://github.com/salpie/elon-musk-to-mr-burns/blob/master/ELONMUSK-to-MRBURNS.crx)
 
 Note that there are forks of this extension that simply replace 'cloud' with 'butt'.
 In my personal opinion, that approach is too broad and it's less funny as a result, but it is clearly a very
