@@ -4,7 +4,7 @@ musk-to-burns
 all thanks to panicsteve and the cloud-to-butt community [ including the millenials to snake people community ]
 logo by Kane Smith
 
-![](logo.png)
+![](interim_logo.png)
 
 Chrome extension that replaces occurrences of 'elon musk' with 'mr burns'
 
